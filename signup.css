@@ -133,4 +133,166 @@ flex-direction: column;
   font-weight: 400px;
 }
 
-/* @media all and (min-width: 768px) and (max-width:) */
+  
+
+@media all and (min-width: 730px) and (max-width: 1024px){
+    #container{
+        width: 50%;
+        }
+
+
+
+
+  h1{
+       /* border: 1px solid red; */
+        font-size: 120%;
+    }
+    
+    #form{
+    padding: 20px;
+     margin-top:-20px;
+        
+    }
+ 
+    #form>p{
+        width: 80%;
+        font-size: 90%;
+        /* font-weight:bold; */
+        font-family:Arial, Helvetica, sans-serif;
+        margin-top: 35px;
+    }
+    #form>input[type="text"],input[type="password"],input[type="number"]{
+        width: 98%;
+        height: 30px;
+        margin-top: 20px;
+        font-size: 15px;
+        /* margin-top: 20px; */
+       
+    }
+
+    #form>div>input[type="text"]{
+        width: 47.3%;
+        height: 40px;
+        font-size: 15px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        /* border: 1px solid red; */
+    }
+
+#d{
+/* border: 1px solid red;   */
+margin-top: 10px;
+display: flex;
+font-size:70%;
+height: 30px;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+#small{
+width: 30px;
+height: 40px;
+font-weight:400;  
+}
+input[type="checkbox"]{
+height: 40px;
+width: 20px;
+}
+#form>div{
+display:flex;
+/* border: 1px solid yellow; */
+
+}
+
+div>select{
+margin-top: 20px;
+width: 47.7%;
+height: 30px;
+border-radius: 5px;
+border: 1px solid #ccc;
+} 
+
+
+}
+
+@media all and (min-width: 320px) and (max-width: 720px){
+  
+    #container{
+        width: 100%;
+        }
+
+
+
+
+  h1{
+       /* border: 1px solid red; */
+        font-size: 120%;
+    }
+    
+    #form{
+    padding: 20px;
+     margin-top:-10px;
+        
+    }
+ 
+    #form>p{
+        width: 100%;
+        font-size: 90%;
+        /* font-weight:bold; */
+        font-family:Arial, Helvetica, sans-serif;
+        margin-top: 35px;
+    }
+    #form>input[type="text"],input[type="password"],input[type="number"]{
+        width: 98%;
+        height: 30px;
+        margin-top: 20px;
+        font-size: 15px;
+       
+    }
+
+    #form>div>input[type="text"]{
+        width: 47.3%;
+        height: 30px;
+        font-size: 15px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        /* border: 1px solid red; */
+    }
+
+#d{
+/* border: 1px solid red;   */
+margin-top: 10px;
+display: flex;
+font-size:70%;
+height: 30px;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+#small{
+width: 30px;
+height: 40px;
+font-weight:400;  
+}
+input[type="checkbox"]{
+height: 40px;
+width: 20px;
+}
+#form>div{
+display:flex;
+/* border: 1px solid yellow; */
+
+}
+
+div>select{
+margin-top: 20px;
+width: 47.7%;
+height: 30px;
+border-radius: 5px;
+border: 1px solid #ccc;
+} 
+}

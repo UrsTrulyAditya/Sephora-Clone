@@ -27,7 +27,7 @@
 </form>
 <div id="foot">
 <h2>New to Sephora?</h2>
-<button><a href="signup.html"> Create Account</a></button>
+<a href="signup.html"> Create Account</a>
    </div>
     <a href="">Terms of Use & Privacy Policy</a>
 </div>
@@ -38,6 +38,7 @@
 
 
 <script>
+   
  let loginfrm=JSON.parse(localStorage.getItem("signup"))||[]
 document.querySelector("form").addEventListener("submit", sumbit)
 function sumbit(){
@@ -60,8 +61,16 @@ if(loginfrm[i].email==obj.mail){
    alert("Please enter valid email") 
 }
 }
-  
+
 }
+
+
+function click(){
+// event.preventDefault();
+    console.log("Click")
+}
+
+
   
 
 

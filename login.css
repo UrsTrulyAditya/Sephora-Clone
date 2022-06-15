@@ -1,13 +1,36 @@
- 
-  body{
+body{
     background-image: url(https://images.pexels.com/photos/5632324/pexels-photo-5632324.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
      background-size: cover;
      width: 95%;
      /* height: 85vh; */
 
   }
+
+  h2+a{
+    text-decoration: none;
+    height:50px;
+    width: 50%;
+    border-radius: 30px;
+    background-color: white;
+    color:black;
+    font-size: 16px;
+    font-weight: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    /* position: absolute;
+    right: 55%;
+    bottom:34%; */
+    margin-left: 1px;
+    display: flex;
+justify-content: center;
+align-items: center;    
+  }
+  h2+a:hover{
+    background-color: #ccc;
+    
+}
         #container{ 
-            width: 39%;
+            width: 30%;
             height: 500px;
             border: 1px solid transparent;
             border-radius: 9px;
@@ -21,12 +44,14 @@
             margin-left: 30%;
             font-size: 14px;
             font-family: Arial, Helvetica, sans-serif;
+            /* margin-top: 0px; */
         }
       h1{
           
             margin-left: 10%;
             font-size: 20px;
             font-family: Arial, Helvetica, sans-serif;
+            margin-top: 20px;
         }
         h2{
           
@@ -66,15 +91,15 @@ input[type="checkbox"]{
     
  }
 #check>p{
-border: 1px solid red;
+/* border: 1px solid red; */
 margin-left: 10px;
-font-size: 16px;
+font-size: 14px;
 font-weight:400;
 font-family: Arial, Helvetica, sans-serif;
 }
 #check>p+p{
-    margin-left: 125px;
-    color: blueviolet;
+    margin-left: 80px;
+    color:darkblue;
 }
 
 #form>:nth-child(6)>button{
@@ -99,24 +124,202 @@ font-family: Arial, Helvetica, sans-serif;
 flex-direction: column;
 padding: 30px;
 }
-#foot>button{
-    height:50px;
-    width: 60%;
-    border-radius: 30px;
-    background-color: white;
-    color:black;
-    font-size: 16px;
-    font-weight: 500px;
-    font-family: Arial, Helvetica, sans-serif;
-    cursor: pointer;
-}
-#foot>button:hover{
-    background-color: #ccc;
-    
-}
+
+
 #foot>button>a{
     text-decoration: none;
     font-size: larger;
     color: #000000;
     margin-right: 49px;
+}
+
+
+
+@media all and (min-width: 730px) and (max-width: 1024px){
+    #container{
+        width: 55%;
+        }
+
+        #check>p{
+            border: 1px solid red;
+            margin-left: 10px;
+            font-size: 12px;
+            font-weight:400;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+
+            #check>p+p{
+                margin-left: 20%;
+                color: blueviolet;
+            }
+
+
+  h1{
+       /* border: 1px solid red; */
+        font-size: 120%;
+    }
+    
+    #form{
+    padding: 40px;
+     margin-top:-20px;
+        
+    }
+ 
+    #form>p{
+        width: 80%;
+        font-size: 90%;
+        /* font-weight:bold; */
+        font-family:Arial, Helvetica, sans-serif;
+        margin-top: 35px;
+    }
+    #form>input[type="text"],input[type="password"],input[type="number"]{
+        width: 100%;
+        height: 30px;
+        margin-top: 20px;
+        font-size: 15px;
+        /* margin-top: 20px; */
+       
+    }
+
+
+    #check>p{
+        /* border: 1px solid red; */
+        margin-left: 10px;
+        font-size: 14px;
+        font-weight:400;
+        font-family: Arial, Helvetica, sans-serif;
+     
+        }
+        #check>p+p{
+            margin-left: 15%;
+            color:darkblue;
+        }
+        
+ 
+
+#d{
+/* border: 1px solid red;   */
+margin-top: 10px;
+display: flex;
+font-size:70%;
+height: 30px;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#small{
+width: 30px;
+height: 40px;
+font-weight:400;  
+}
+input[type="checkbox"]{
+height: 40px;
+width: 20px;
+}
+#form>div{
+display:flex;
+/* border: 1px solid yellow; */
+
+}
+
+div>select{
+margin-top: 20px;
+width: 47.7%;
+height: 30px;
+border-radius: 5px;
+border: 1px solid #ccc;
+} 
+
+
+}
+
+@media all and (min-width: 320px) and (max-width: 720px){
+  
+    #container{
+        width: 100%;
+        }
+
+        #check>p{
+            /* border: 1px solid red; */
+            margin-left: 10px;
+            font-size: 14px;
+            font-weight:400;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+            #check>p+p{
+                margin-left: 50%;
+                color:darkblue;
+            }
+            
+
+
+  h1{
+       /* border: 1px solid red; */
+        font-size: 120%;
+    }
+    
+    #form{
+    padding: 20px;
+     margin-top:-10px;
+        
+    }
+ 
+    #form>p{
+        width: 100%;
+        font-size: 90%;
+        /* font-weight:bold; */
+        font-family:Arial, Helvetica, sans-serif;
+        margin-top: 35px;
+    }
+    #form>input[type="text"],input[type="password"],input[type="number"]{
+        width: 98%;
+        height: 30px;
+        margin-top: 20px;
+        font-size: 15px;
+       
+    }
+
+    #form>div>input[type="text"]{
+        width: 47.3%;
+        height: 30px;
+        font-size: 15px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        /* border: 1px solid red; */
+    }
+
+#d{
+/* border: 1px solid red;   */
+margin-top: 10px;
+display: flex;
+font-size:70%;
+height: 30px;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+#small{
+width: 30px;
+height: 40px;
+font-weight:400;  
+}
+input[type="checkbox"]{
+height: 40px;
+width: 20px;
+}
+#form>div{
+display:flex;
+/* border: 1px solid yellow; */
+
+}
+
+div>select{
+margin-top: 20px;
+width: 47.7%;
+height: 30px;
+border-radius: 5px;
+border: 1px solid #ccc;
+} 
 }
