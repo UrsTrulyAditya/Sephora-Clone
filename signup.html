@@ -6,10 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="signup.css">
+    <style>
+     
+      
+    </style>
 
 </head>
 <body>
-    
+  <div id="click">
+    <button>Click me</button>
+    <button>close</button>
+  </div>  
+
+
     <div id="container">
     <h1>Create an Account</h1>
     <hr>
@@ -111,47 +120,8 @@
 
 
 
-<script>
-document.querySelector("form").addEventListener("submit", sumbit)
-let login=JSON.parse(localStorage.getItem("signup"))||[]
-function sumbit(){
-    event.preventDefault();
-    console.log("inner")
-    let obj={
-        name:document.querySelector("#name").value,
-        last:document.querySelector("#last").value,
-        email:document.querySelector("#email").value,
-        password:document.querySelector("#pass").value,
-        mbl:document.querySelector("#mbl").value,
-        month:document.querySelector("#month").value,
-        day:document.querySelector("#day").value,
-        zip:document.querySelector("#zip").value
-
-    }
-    if(check(obj.email)==true){
-     login.push(obj)
-     localStorage.setItem("signup",JSON.stringify(login))
-     alert("SignUp 😊succesfull")
-     window.location.href="./login.html"
-
-    }else{
-        alert("Email already🥲ragister")
-    }
-}
-    // console.log(obj)
+<script src="signup.js" >
 
 
-    function check(email){
-      let filter=login.filter(function(elem){
-      return email==elem.email
-
-      })
-      if(filter.length>0){
-        return false
-
-      }else{
-        return true
-      }  
-    }
 
 </script>

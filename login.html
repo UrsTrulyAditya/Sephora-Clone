@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
+    <div id="click">
+        <button>Click me</button>
+        <button>close</button> 
+
+    </div>
     
     <div id="container">
     <h1>Sign in to Sephora</h1>
@@ -27,7 +32,7 @@
 </form>
 <div id="foot">
 <h2>New to Sephora?</h2>
-<button><a href="signup.html"> Create Account</a></button>
+<a href="signup.html"> Create Account</a>
    </div>
     <a href="">Terms of Use & Privacy Policy</a>
 </div>
@@ -37,31 +42,9 @@
 
 
 
-<script>
- let loginfrm=JSON.parse(localStorage.getItem("signup"))||[]
-document.querySelector("form").addEventListener("submit", sumbit)
-function sumbit(){
-    event.preventDefault();
-    console.log("inner")
-    let obj={
-       mail:document.querySelector("#mail").value,
-     pass:document.querySelector("#pass").value,
+<script src="login.js">
+   
 
-    }
-    
-for(let i=0;i<loginfrm.length;i++) {
-if(loginfrm[i].email==obj.mail){
-    if(loginfrm[i].password==obj.pass){
-        window.location.href="https://www.sephora.com/"
-    }else{
-        alert("Please enter valid password")
-    }
-}else{
-   alert("Please enter valid email") 
-}
-}
-  
-}
   
 
 
