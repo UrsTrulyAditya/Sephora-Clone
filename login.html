@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    
+    <div id="container">
+    <h1>Sign in to Sephora</h1>
+    <hr>
+        <form id="form" action="">
+       <input type="text" placeholder="Email Address" id="mail" required> <br>
+       <input type="password" name="password" id="pass" placeholder="Password" required> <br>
+     
+      <div id="check">
+        <input type="checkbox" name="" id=""><p>Keep me signed in</p>
+        <p>Forgot password?</p>
+    </div>
+    <div>
+        <button>Sign In</button>
+    </div>
+    
+</form>
+<div id="foot">
+<h2>New to Sephora?</h2>
+<button><a href="signup.html"> Create Account</a></button>
+   </div>
+    <a href="">Terms of Use & Privacy Policy</a>
+</div>
+</body>
+</html>
+
+
+
+
+<script>
+ let loginfrm=JSON.parse(localStorage.getItem("signup"))||[]
+document.querySelector("form").addEventListener("submit", sumbit)
+function sumbit(){
+    event.preventDefault();
+    console.log("inner")
+    let obj={
+       mail:document.querySelector("#mail").value,
+     pass:document.querySelector("#pass").value,
+
+    }
+    
+for(let i=0;i<loginfrm.length;i++) {
+if(loginfrm[i].email==obj.mail){
+    if(loginfrm[i].password==obj.pass){
+        window.location.href="https://www.sephora.com/"
+    }else{
+        alert("Please enter valid password")
+    }
+}else{
+   alert("Please enter valid email") 
+}
+}
+  
+}
+  
+
+
+</script>
