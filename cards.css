@@ -152,7 +152,6 @@ body {
 .swiper-slide img {
     display: block;
     width: 180px;
-
     object-fit: cover;
 }
 
