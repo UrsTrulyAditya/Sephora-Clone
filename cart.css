@@ -3,9 +3,11 @@
     width: 80%;
     margin: auto;
     margin-top: 6%;
-    border: 1px solid red;
+    margin-bottom: 20%;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-evenly;
+
 
     
 
