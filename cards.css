@@ -126,6 +126,52 @@ body {
     
 
 }
+.swiper-slide>.half-circle-ribbon:hover {
+  padding-top: 5px;
+  padding-bottom: -5px;
+}
+.half-circle-ribbon {
+  background: #000000;
+  color: #FFF;
+  height: 55px;
+  width: 50px;
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 10px;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  flex-direction: row;
+  border-radius: 0 0 0 100%;
+
+  box-shadow: 0 0 0 3px #070707;
+}
+
+.swiper-slide:hover>.quickL {
+  display: block;
+
+}
+
+.quickL:hover {
+  background-color: rgba(0, 0, 0, 0.322);
+}
+
+.quickL {
+
+  display: none;
+  opacity: 0.1px;
+  background-color: rgba(0, 0, 0, 0.726);
+  width: 55%;
+  margin-top: 15px;
+  height: 20px;
+  text-align: center;
+
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  position: absolute;
+  bottom: 110px;
+}
 
 .swiper>h1 {
     font-size: 30px;
