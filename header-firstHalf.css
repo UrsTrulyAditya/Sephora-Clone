@@ -1,11 +1,7 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
+
 .fa-solid{
  font-size: 14px;   
 }
-
 #nav1{
 background-color: rgb(252, 119, 119);
 height: 60px;
@@ -58,7 +54,7 @@ align-items: center;
     width: 30px;
 }
 #nav2>div:last-child{
-    border: 2px solid black;
+    border: 2px solid transparent;
     width: 13%;
     display: flex;
     justify-content: space-between;
@@ -109,5 +105,131 @@ text-decoration: none;
     color: white;
 }
 /* ----------------------------------------------------- */
+
+
+/* .swiper {
+    width: 75%;
+    height: 270px;
+    margin-bottom: 100px;
+    border: 2px solid transparent;
+  }
+
+  .swiper-slide {
+    
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .swiper-slide>img+p{
+    margin-left: 10px;
+  }
+  .swiper-slide>p+p{
+    margin-top: -15px;
+    margin-left: 10px;
+  }
+  .swiper-slide>p:nth-child(4){
+    position: absolute;
+    background-color: #000;
+    color: white;
+    width: fit-content;
+    top: 20px;
+    left: 10px;
+    border-radius: 10px;
+  }
+  .swiper-slide>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .Beauty-Offers+.swiper{
+    height: 400px;
+  } */
+/* #nav5+.wholeSwiper>.swiper-wrapper>.swipper-slide{
+    width: 100%;
+    box-shadow: none;
+} */
+
+
+.Beauty-Offers+.swiper{
+    height: 800px;
+  }
+  .Beauty-Offers+.swiper>.swiper-wrapper>.swiper-slide>p+p{
+    margin-top: -20px;
+  }
+  .Beauty-Offers+.swiper>.swiper-wrapper>.swiper-slide>.new{
+    top: 30px;
+  }
+
+/* #nav5+.wholeSwiper>.swiper-wrapper>.swipper-slide{
+    width: 100%;
+    box-shadow: none;
+} */
+
+#big-card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1;
+    gap: 20px;
+    border: 2px solid transparent;
+    margin-top: 50px;
+    
+}
+#big-card>div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #000;
+}
+#big-card>div:hover>p{
+text-decoration: underline;
+}
+#big-card>div:hover>h3{
+    text-decoration: underline;
+}
+#big-card>div>p{
+    margin-top: -15px;
+}
+#big-card>div>img{
+    width: 100%;
+}
+#big-card>div>h2{
+    margin-left: 10px;
+    color:#fff;
+}
+#big-card>div>p{
+    margin-left: 10px;
+    color:#fff;
+}
+#big-card>div>h3>a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.new{
+    position: absolute;
+    color: white;
+    background-color: #000;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px){
+    #nav2>div:first-child>div{
+        display: none;
+    }
+    #nav5{
+      display: none;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 640px){
+    #nav2>div:first-child>div{
+        display: none;
+    }
+    #nav5{
+        display: none;
+      }
+  
+}
 
 

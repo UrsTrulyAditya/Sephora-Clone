@@ -102,14 +102,13 @@ body {
 body {
 
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-
     color: #000;
     margin: 0;
     padding: 0;
 }
 
 .swiper {
-    width: 95%;
+    width: 1400px;
     height: 455px;
 }
 
@@ -119,23 +118,59 @@ body {
     background: #fff;
     margin: 20px;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
-    height: 330px;
+    height: fit-content;
     border: 1px solid rgb(228, 226, 226);
     /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
     flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
+    
 
+}
+.swiper-slide>.half-circle-ribbon:hover {
+  padding-top: 5px;
+  padding-bottom: -5px;
+}
+.half-circle-ribbon {
+  background: #000000;
+  color: #FFF;
+  height: 55px;
+  width: 50px;
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 10px;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  flex-direction: row;
+  border-radius: 0 0 0 100%;
+
+  box-shadow: 0 0 0 3px #070707;
+}
+
+.swiper-slide:hover>.quickL {
+  display: block;
+
+}
+
+.quickL:hover {
+  background-color: rgba(0, 0, 0, 0.322);
+}
+
+.quickL {
+
+  display: none;
+  opacity: 0.1px;
+  background-color: rgba(0, 0, 0, 0.726);
+  width: 55%;
+  margin-top: 15px;
+  height: 20px;
+  text-align: center;
+
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  position: absolute;
+  bottom: 110px;
 }
 
 .swiper>h1 {
@@ -147,6 +182,9 @@ body {
     padding-bottom: -5px;
 
 }
+.swiper-slide:hover > .absBtn{
+  display: block;
+}
 
 
 .swiper-slide img {
@@ -155,10 +193,6 @@ body {
     object-fit: cover;
 }
 
-.swiper-slide>h4,
-p {
-    text-align: left;
-}
 
 
 #btnSignIn {
@@ -168,10 +202,12 @@ p {
     font-size: 16px;
     font-weight: 600;
     padding: 5px;
-    width: 150px;
+    width: 80%;
     border: 3px solid rgb(3, 2, 2);
+    margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    
 }
 
 #boxContainer3 {
@@ -181,6 +217,41 @@ p {
 #boxContainer3>.swiper-slide {
     height: 750px;
     padding: 105px;
+}
 
+.absBtn{
+  position: absolute;
+  display: none;
+  bottom: 90px;
+  left: 20px;
+  background-color: rgb(38, 38, 38);
+  color: #fff;
+  width: 170px;
+}
+.absBtn:hover{
+  cursor: pointer;
+}
 
+img+h4{
+  margin-left: 15px;
+}
+h4+p{
+  margin-top: -20px;
+}
+span{
+  /* font-size: 14px; */
+  margin-top: -20px;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px){
+  .swiper{
+    width: 70%;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 640px){
+  
+  .swiper{
+    width: 70%;
+  }
 }
