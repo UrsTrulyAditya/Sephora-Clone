@@ -1,0 +1,232 @@
+#container{
+
+    width: 80%;
+    margin: auto;
+    margin-top: 6%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+
+    
+
+}
+
+#pay{
+    border: 1px solid #cccc;
+    width: 400px;
+   
+}
+
+        #main{
+            /* border: 3px solid red; */
+            /* height: 400px; */
+            width: 47%;
+            box-sizing: border-box;  padding: 20px; 
+        }
+
+        #main>h3{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #main>div{
+            border: 1px solid none;
+           height: 80px;
+           display: flex; 
+           margin-bottom: -20px;    
+        }
+        #main>div>img{
+            width: 30px;
+            height: 30px;
+            margin-top: 14px;
+        }
+        #main>div>p{
+            width: 260px;
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            /* text-align: center; */
+            margin-left: 10px;
+
+        }
+
+#main>div:nth-child(3){
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+
+}
+#main>div:nth-child(3)>div{
+    
+    border: 1px solid #ccc;
+    height: 70px;
+}
+
+
+
+
+        #main>div>div{
+            /* border: 2px solid blue; */
+            height: 100px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;  
+        }
+        #main>div:nth-child(4){
+            margin-top: 20px;
+            height: 150px;
+            border: 1px solid #cccc;
+            justify-content: center;
+        }
+        #main>div:nth-child(4)>div>h3{
+            /* border: 1px solid red; */
+        margin-bottom: -8px;
+        font-size: 14px;
+        }
+        #main>div:nth-child(4)>div>p+p{
+        text-decoration: none;
+        /* border: 1px solid teal; */
+        height: 40px;
+        width: 50%;
+        border-radius: 40px;
+        background-color: black;
+        margin-left: 80px;
+        display: flex;
+        justify-content: center;
+      align-items: center;
+        }
+        #main>div:nth-child(4)>div>p+p>a{
+            text-decoration: none;
+            color: white;
+
+        }
+
+
+
+
+#pay>div{
+    padding: 15px;
+}
+    #pay>div>div:first-child{
+          display: flex; 
+          justify-content:space-around;   
+          /* border: 1px solid teal;     */
+          font-size: 18px;
+    }
+    #pay>div>div:first-child>strong{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 13px;
+
+    }
+
+
+    #pay>div>div:nth-child(2)>a{
+        margin-left: 40px;
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+      
+        font-family: Arial, Helvetica, sans-serif;
+
+      }  
+
+
+      
+    #pay>div>div:nth-child(2)>strong{
+        margin-left: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+       
+      
+    }
+    a+strong+p{
+        /* border: 1px solid red; */
+        font-size: 13px;
+        margin-left: 40px;
+        color: #ccc;
+        /* margin-bottom: -20px; */
+    }
+
+    #pay>div>button{
+        height: 60px;
+        width: 300px;
+        border-radius:400px;
+        margin-top: 10px;
+       border: none;
+       font-size: 16px;
+       font-weight: 500px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #666666;
+      font-weight: bold;
+
+    }
+    #pay>div>button{
+        margin-left: 34px;
+        cursor: pointer;
+
+    }
+    #pay>div>button:hover{
+        background-color: #ccc;
+    }
+
+    #pay>div>button+button{
+        display: flex;
+        /* border: 1px solid red; */
+        justify-content: center;
+        align-items: center;
+        margin-left: 34px;
+    }
+
+#pay>div>button+button>img{
+width: 100px;
+height: 100px;
+margin-left: 20px;
+/* border: 1px solid black; */
+
+}
+
+#pay>div:nth-child(3){
+/* border: 1px solid red; */
+margin-bottom: -30px;
+box-sizing: border-box;
+padding: 10px;
+}
+
+#pay>div:nth-child(3)>strong{
+    /* border: 1px solid red; */
+    /* margin-left: 77%; */
+ position: absolute;
+ right: 20%;
+ bottom: 480px;
+ font-size: 20px;
+}
+
+#pay>div:nth-child(3)>h3{
+    font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  margin-left: 40px;
+  margin-bottom: -5px;
+
+}
+
+#pay>div:nth-child(3)>p{
+    font-family: Arial, Helvetica, sans-serif;
+   margin-left: 40px;
+    color: #ccc;
+    font-size:14px;
+}
+
+#pay>div:nth-child(5){
+    width: 80%;
+border: 1px solid #ccc;
+height: 80px;
+margin: auto;
+
+}
+#pay>div:nth-child(5)>input[type="text"]{
+    margin-top: 15px;
+    width: 75%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 16px;
+
+}
