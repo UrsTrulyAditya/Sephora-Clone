@@ -1,7 +1,4 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
+
 .fa-solid{
  font-size: 14px;   
 }
@@ -110,7 +107,7 @@ text-decoration: none;
 /* ----------------------------------------------------- */
 
 
-.swiper {
+/* .swiper {
     width: 75%;
     height: 270px;
     margin-bottom: 100px;
@@ -148,12 +145,27 @@ text-decoration: none;
   }
   .Beauty-Offers+.swiper{
     height: 400px;
-  }
+  } */
 /* #nav5+.wholeSwiper>.swiper-wrapper>.swipper-slide{
     width: 100%;
     box-shadow: none;
 } */
 
+
+.Beauty-Offers+.swiper{
+    height: 800px;
+  }
+  .Beauty-Offers+.swiper>.swiper-wrapper>.swiper-slide>p+p{
+    margin-top: -20px;
+  }
+  .Beauty-Offers+.swiper>.swiper-wrapper>.swiper-slide>.new{
+    top: 30px;
+  }
+
+/* #nav5+.wholeSwiper>.swiper-wrapper>.swipper-slide{
+    width: 100%;
+    box-shadow: none;
+} */
 
 #big-card{
     width: 100%;
@@ -195,7 +207,29 @@ text-decoration: underline;
     color: #fff;
 }
 
+.new{
+    position: absolute;
+    color: white;
+    background-color: #000;
+}
 
+@media all and (min-width: 768px) and (max-width: 1024px){
+    #nav2>div:first-child>div{
+        display: none;
+    }
+    #nav5{
+      display: none;
+    }
+}
 
+@media all and (min-width: 320px) and (max-width: 640px){
+    #nav2>div:first-child>div{
+        display: none;
+    }
+    #nav5{
+        display: none;
+      }
+  
+}
 
 
