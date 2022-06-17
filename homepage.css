@@ -642,3 +642,8 @@ span {
 .details>div>h6 {
     font-size: 18px;
 }
+
+.gapText>p{
+    line-height: 20px;
+    
+}
