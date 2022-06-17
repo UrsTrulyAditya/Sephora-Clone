@@ -138,7 +138,7 @@ let productArr = [
     Star:"https://cdn-icons-png.flaticon.com/512/156/156855.png"},
 
     {Image: "https://www.sephora.com/productimages/sku/s2585628-main-zoom.jpg?imwidth=135&imwidth=135",
-    name: "tarte",
+    name: "tarte 1",
     des:"tartelette™ tubing mascara",
     price: 24,
     Star:"https://cdn-icons-png.flaticon.com/512/156/156855.png"},
