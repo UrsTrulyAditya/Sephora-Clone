@@ -1,18 +1,18 @@
  // popup
- document.querySelector("button").addEventListener("click", function(){
-    document.querySelector("#container").style.display="block";
+ document.querySelector("#btn").addEventListener("click", function(){
+    document.querySelector("#cont").style.display="block";
         
       })
     
-    document.querySelector("button+button").addEventListener("click", function(){
-    document.querySelector("#container").style.display="none";
+    document.querySelector("#button").addEventListener("click", function(){
+    document.querySelector("#cont").style.display="none";
     })
     
     
        
      let loginfrm=JSON.parse(localStorage.getItem("signup"))||[]
     document.querySelector("form").addEventListener("submit", sumbit)
-    function sumbit(){
+    function sumbit(event){
         event.preventDefault();
         console.log("inner")
         let obj={
@@ -24,7 +24,8 @@
     for(let i=0;i<loginfrm.length;i++) {
     if(loginfrm[i].email==obj.mail){
         if(loginfrm[i].password==obj.pass){
-            window.location.href="https://www.sephora.com/"
+            alert("Login 👍Succesfully")
+            window.location.reload();
         }else{
             alert("Please enter valid password")
         }
@@ -36,8 +37,8 @@
     }
     
     
-    function click(){
-    // event.preventDefault();
-        console.log("Click")
-    }
+    // function click(){
+    // // event.preventDefault();
+    //     console.log("Click")
+    // }
     
