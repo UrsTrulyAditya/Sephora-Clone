@@ -1,10 +1,10 @@
-body{
+/* body{
     background-image: url(https://images.pexels.com/photos/5632324/pexels-photo-5632324.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
      background-size: cover;
      width: 95%;
-     /* height: 85vh; */
+     height: 85vh;
 
-  }
+  } */
 
   h2+a{
     text-decoration: none;
@@ -26,26 +26,46 @@ justify-content: center;
 align-items: center;    
   }
   h2+a:hover{
-    background-color: #ccc;
+    background-color:cornflowerblue;
     
 }
-        #container{ 
+        #cont{ 
             width: 30%;
-            height: 500px;
+            height: 550px;
             border: 1px solid transparent;
             border-radius: 9px;
             margin: auto;
             margin-top: 7%; 
             margin-bottom: -40px;
-            background-color: rgba(77,77, 77,0.7);
-            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset
+            background-color: rgba(255,255,255);
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+            display:none;
+            position:absolute;
+            top: 50px;
+            left: 550px;
+            z-index:999;
         }
-        a{
+
+        #click>button{
+            height: 30px;
+            width: 30px;
+            position: absolute;
+            top: 1px;
+            left: 415px;
+            border-radius: 100px;
+            border: none;
+            background-color: white;
+            font-size: large;
+            z-index: 1;
+
+         }
+
+        #p{
             margin-left: 30%;
             font-size: 14px;
             font-family: Arial, Helvetica, sans-serif;
             /* margin-top: 0px; */
-        }
+        } 
       h1{
           
             margin-left: 10%;
@@ -72,7 +92,7 @@ align-items: center;
         #form>input[type="text"],input[type="password"]{
             width: 98%;
             height: 40px;
-            margin-top: 20px;
+            margin-top: 30px;
             font-size: 15px;
             border-radius: 5px;
             border: 1px solid #ccc;
