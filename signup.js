@@ -1,17 +1,19 @@
 
-  document.querySelector("button").addEventListener("click", function(){
+  document.querySelector("#sign").addEventListener("click", function(){
+    document.querySelector("#cont").style.display = "none";
     document.querySelector("#container").style.display="block";
-        
+
+      
       })
     
-    document.querySelector("button+button").addEventListener("click", function(){
+    document.querySelector("#cli").addEventListener("click", function(){
+
     document.querySelector("#container").style.display="none";
     })
     
-    
     document.querySelector("form").addEventListener("submit", sumbit)
     let login=JSON.parse(localStorage.getItem("signup"))||[]
-    function sumbit(){
+    function sumbit(event){
         event.preventDefault();
         console.log("inner")
         let obj={
@@ -29,7 +31,7 @@
          login.push(obj)
          localStorage.setItem("signup",JSON.stringify(login))
          alert("SignUp 😊succesfull")
-         window.location.href="./login.html"
+        //  window.location.href="./login.html"
     
         }else{
             alert("Email already🥲ragister")
