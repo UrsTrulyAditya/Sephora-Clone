@@ -17,6 +17,7 @@ dataFromNewProduct.map(function (elem, index) {
       alert("ITEM ADDED SUCCESSFULLY");
       dataforCart.push(elem);
       localStorage.setItem("cart-page", JSON.stringify(dataforCart));
+  
     } else {
       alert("product already in cart");
     }
