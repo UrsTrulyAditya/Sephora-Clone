@@ -1011,7 +1011,7 @@
 
                     <p>Merchandise Subtotal 
                         </p>
-                        <p style="font-weight: 600; ">
+                        <p style="font-weight: 600;" id="total">
                             $0.00
                         </p>
                 </div>
@@ -1020,23 +1020,23 @@
                     
                     <p>  Estimated Tax & Other Fees 
                         </p>
-                        <p style="font-weight: 600; ">
+                        <p style="font-weight: 600;" >
                             TBD
                         </p>
                 </div>
-                <div style="display: flex;justify-content: space-between;">
+                <!-- <div style="display: flex;justify-content: space-between;">
                    
                     <p style="font-weight: 600; ">   Estimated Total 
                         </p>
-                        <p style="font-weight: 600; "> 
-                            $0.00
+                        <p style="font-weight: 600;" id="p"> 
+                            $0
                         </p>
-                    </div>
+                    </div> -->
                     <p>Shipping & taxes calculated during checkout</p>
-                    <button id="check"   >Checkout Shipped Items</button>
+                    <button id="check" >Checkout Shipped Items</button>
                     <button id="check"  > 
                     <div style="text-align: center; ">
-                        <span>Pay With PayPal</span>
+                     <span>Pay With PayPal</span>
                        <!-- <img style="width: 105px; margin-left:15px; " src="https://cdn-icons-png.flaticon.com/512/196/196566.png?w=740" /> -->
                     </div>  
                     
@@ -1047,7 +1047,8 @@
     
                         <p>  View featured offers﻿ 
                         </p>
-                        <input placeholder="Promo or Reward Code" />
+                        <input placeholder="Promo or Reward Code" id="voucher">
+                        <button id="bt">Apply</button>
                     </div>
                      
                     </div>
