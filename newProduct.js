@@ -192,7 +192,31 @@ let productArr = [
     price: 28,
     Star:"https://cdn-icons-png.flaticon.com/512/156/156855.png"},
 
-    
+    {Image: "https://www.sephora.com/productimages/sku/s2587301-main-zoom.jpg?imwidth=612",
+    name: "tarte",
+    des:"Mini Clay Play To-Go Cheek Palette",
+    price: 21,
+    Star:"https://cdn-icons-png.flaticon.com/512/156/156855.png"},
+
+    {Image: "https://www.sephora.com/productimages/sku/s2563559-main-zoom.jpg?imwidth=612",
+    name: "tarte",
+    des:"Mini Clay Play To-Go Cheek Palette",
+    price: 21,
+    Star:"https://cdn-icons-png.flaticon.com/512/156/156855.png"},
+
+    {Image: "https://www.sephora.com/productimages/sku/s2585677-main-zoom.jpg?imwidth=612",
+    name: "tarte",
+    des:"Mini Clay Play To-Go Cheek Palette",
+    price: 21,
+    Star:"https://cdn-icons-png.flaticon.com/512/156/156855.png"},
+
+    {Image: " https://www.sephora.com/productimages/sku/s2567923-main-zoom.jpg?imwidth=612",
+    name: "tarte",
+    des:"Mini Clay Play To-Go Cheek Palette",
+    price: 21,
+    Star:"https://cdn-icons-png.flaticon.com/512/156/156855.png"},
+
+   
 
 ]
 
