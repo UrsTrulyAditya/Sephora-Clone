@@ -5,7 +5,7 @@
     font-size: 18px;
     color: black;
     font-weight: 600;
-     
+
     align-self: center;
     padding: px;
 }
@@ -14,10 +14,11 @@
     background-color: black;
     color: white;
     align-self: center;
-   
+
     padding: 25px;
     padding-bottom: 77px;
 }
+
 .labelBox {
     display: flex;
     justify-content: space-around;
@@ -141,7 +142,7 @@ span {
     font-size: 18px;
 }
 
- 
+
 .leftOne {
     display: flex;
     flex-direction: column;
@@ -166,17 +167,19 @@ span {
 
 }
 
-#mainCon{
+#mainCon {
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
-#rightPart{
+
+#rightPart {
     width: 25%;
     display: flex;
     flex-direction: column;
-   
+
 }
+
 #leftPart {
     width: 55%;
 }
@@ -185,48 +188,56 @@ span {
     display: flex;
     justify-content: space-between;
 }
-.bTwo>div{
+
+.bTwo>div {
     border: 1px solid rgb(172, 170, 170);
     padding: 5px;
     border-radius: 9px;
 }
-.bthree{
+
+.bthree {
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.bthree>button{
+
+.bthree>button {
     border-radius: 35px;
     border: 5px solid black;
-    background-color:  black;
+    background-color: black;
     height: 60px;
     color: white;
     width: 250px;
     font-weight: 600;
 }
-.collection{
+
+.collection {
     display: flex;
     justify-content: space-between;
 }
-.imgDiv{
+
+.imgDiv {
     display: flex;
-     
+
 }
-.imgDiv>img{
+
+.imgDiv>img {
     width: 155px;
     margin-right: 10px;
 }
-.twoLefts{
+
+.twoLefts {
     border: 15px solid rgba(218, 216, 216, 0.527);
     padding: 10px;
 }
- 
-.roooole{
-  border: 7px solid rgba(218, 216, 216, 0.527);
+
+.roooole {
+    border: 7px solid rgba(218, 216, 216, 0.527);
 }
-.collection>div>button{
+
+.collection>div>button {
     background-color: transparent;
     border-radius: 15px;
     width: 77px;
@@ -237,11 +248,11 @@ span {
 }
 
 .swiper {
-    
+
     height: 450px;
     /* position: absolute;  */
     align-self: flex-start;
-   
+
 }
 
 .swiper-slide {
@@ -249,9 +260,9 @@ span {
     font-size: 18px;
     background: transparent;
     margin: 20px;
-    
+
     height: 330px;
-     
+
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -295,7 +306,8 @@ span {
 p {
     text-align: left;
 }
-.swiper-slide>button{
+
+.swiper-slide>button {
     border: 4px solid black;
     border-radius: 22px;
     width: 115px;
@@ -305,19 +317,20 @@ p {
     padding: 10px;
 }
 
-.swiper-slide>img{
-width: 105px;
-margin-bottom: 25px;
+.swiper-slide>img {
+    width: 105px;
+    margin-bottom: 25px;
 }
 
-.quickL:hover{
-    background-color:   rgba(0, 0, 0, 0.322);
+.quickL:hover {
+    background-color: rgba(0, 0, 0, 0.322);
 }
+
 .quickL {
-    
+
     display: none;
-     opacity: 0.1px;
-    background-color:   rgba(0, 0, 0, 0.726);
+    opacity: 0.1px;
+    background-color: rgba(0, 0, 0, 0.726);
     width: 55%;
     margin-top: 15px;
     height: 20px;
@@ -329,34 +342,67 @@ margin-bottom: 25px;
     position: absolute;
     bottom: 110px;
 }
-.downLabel{
+
+.downLabel {
     justify-self: flex-start;
 }
-#check{
+
+#check {
     background-color: rgba(218, 216, 216, 0.527);
     border-radius: 25px;
     border: none;
     height: 65px;
     margin-bottom: 15px;
     width: 350px;
-    color:rgb(83, 83, 83) ;
+    color: rgb(83, 83, 83);
     font-size: 20px;
     font-weight: 600;
-    
+    cursor: pointer;
+
 }
-​.rightOne{
+
+#voucher {
+    height: 30px;
+    margin-top: 50px;
+    margin-right: ;
+
+}
+
+#bt {
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    margin-top: 50px;
+    border: none;
+    font-size: large;
+
+}
+#bt:hover{
+    background-color: brown;
+    color: wheat;
+}
+
+
+#check:hover {
+    background-color: blue;
+    color: white;
+}
+
+​.rightOne {
     border: 1px solid rgb(202, 201, 201);
     margin-bottom: 10px;
     padding: 25px;
 }
-input{
+
+input {
     border-color: rgb(233, 228, 228);
     height: 60px;
 }
-.adding{
+
+.adding {
     border-radius: 35px;
     border: 5px solid black;
-    background-color:  rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     height: 50px;
     color: black;
     width: 250px;
@@ -364,15 +410,44 @@ input{
     margin-top: 17px;
 }
 
-.bthree>div{
-    border: 1px solid red;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+.bthree>div {
+    width: 100%;
+    border: 1px solid #ccc;
+
+    display: flex;
+   justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+    /* margin-bottom:100px; */
 }
 
-.bthree>div>img{
+.bthree>div>h5{
+    margin-top: 50px; 
+    font-size: larger;  
+}
+
+.bthree>div>h4{
+    /* margin-left: 10px; */
+    margin-top: 50px;
+    font-size: 14px;
+
+}
+.bthree>div>p{
+    font-size: larger;
+    /* border: 1px soli red; */
+    margin-top: 50px;
+}
+.bthree>div>button{
+    height: 30px;
+    margin-top: 50px;
+    border: none;
+    font-size: large;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+.bthree>div>img {
     margin-top: 10px;
     width: 100px;
     height: 110px;
 }
-
