@@ -363,3 +363,16 @@ input{
     font-weight: bolder;
     margin-top: 17px;
 }
+
+.bthree>div{
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.bthree>div>img{
+    margin-top: 10px;
+    width: 100px;
+    height: 110px;
+}
+
