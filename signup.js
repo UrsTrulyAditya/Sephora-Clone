@@ -31,7 +31,7 @@
          login.push(obj)
          localStorage.setItem("signup",JSON.stringify(login))
          alert("SignUp 😊succesfull")
-        //  window.location.href="./login.html"
+         window.location.href="./homepage.html"
     
         }else{
             alert("Email already🥲ragister")
