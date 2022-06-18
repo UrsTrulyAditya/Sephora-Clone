@@ -25,8 +25,8 @@ if(voucher==="masai30"){
   dis=total-per
   // console.log(dis)
   // alert("you got discount")
-  document.querySelector("#total").innerText=dis;
-  total=dis
+  document.querySelector("#total").innerText='$'+dis;
+  total= "$"+dis
 }
 
 })
