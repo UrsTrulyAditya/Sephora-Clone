@@ -16,7 +16,7 @@
   flex-direction: column;
    justify-content: space-between;
   align-items: flex-start;
-  border-radius: 4px;
+  border-radius: 5px;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -25,7 +25,7 @@
 }
 
 .labels:hover{
-  padding-top: 18px;
+  padding-top: 17px;
   padding-bottom: -10px;
  }  
 
