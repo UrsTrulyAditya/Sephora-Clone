@@ -2,14 +2,16 @@
 
 # Sephora-Clone
 
-​
 
 # Team Details:-
-1. Aditya (as a Team Lead)
-2. Faizan Khan (as a team member)
-3. Anchal jaiswal (as a team member)
-4. Abhilash Kumar Debata(as a team member)
-5. Robin (as a team member)
+1. Aditya (as a Team Lead)  [Github profile](https://github.com/UrsTrulyAditya)
+2. Faizan Khan (as a team member) [Github profile](https://github.com/Faizankhan99)
+3. Anchal jaiswal (as a team member) [Github profile](https://github.com/anchal275)
+4. Abhilash Kumar Debata(as a team member) [Github profile](https://github.com/litundebata)
+5. Robin (as a team member) [Github profile](https://github.com/Robin-111)
+
+
+
 
 
 # Project Details:-
